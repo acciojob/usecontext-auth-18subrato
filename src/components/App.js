@@ -12,7 +12,7 @@ const App = () => {
         {/* Do not remove the main div */}
         
           <h1>Click on the checkbox to get authenticated</h1>
-          {val ? (<p className="authText">You are now autenticated, you can proceed</p>):(<p>you are now authenticated</p>)}
+          {val ? (<p className="authText">You are now authenticated, you can proceed</p>):(<p>you are not authenticated</p>)}
           <input type="checkbox" id='hii' onChange={()=>setVal(true)} />
           <label htmlFor="hii">I'm not a robot</label>
     </div>
