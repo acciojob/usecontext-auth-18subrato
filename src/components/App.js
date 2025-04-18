@@ -13,8 +13,8 @@ const App = () => {
         
           <h1>Click on the checkbox to get authenticated</h1>
           {val ? (<p className="authText">You are now authenticated, you can proceed</p>):(<p>you are not authenticated</p>)}
-          <input type="checkbox" id='hii' onChange={()=>setVal(true)} />
-          <label htmlFor="hii">I'm not a robot</label>
+          <input type="checkbox" name="checkbox" onClick={()=>setVal(true)} />
+          <label htmlFor="checkbox">I'm not a robot</label>
     </div>
   )
 }
